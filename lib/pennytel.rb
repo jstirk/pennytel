@@ -23,6 +23,6 @@ class PennyTel
   end
 
   def profile
-    @penny_tel_api.getProfile GetProfile.new(@username, @password)    
+    @penny_tel_api.getProfile GetProfile.new(@username, @password)
   end
 end
