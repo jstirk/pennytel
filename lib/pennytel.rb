@@ -1,6 +1,8 @@
+$:.unshift File.dirname(__FILE__)
+
 gem 'soap4r'
 require 'soap/mapping'
-require 'lib/defaultDriver'
+require 'pennytel/defaultDriver'
 
 class PennyTel
   

@@ -1,4 +1,4 @@
-require 'lib/default'
+require 'pennytel/default'
 require 'soap/mapping'
 
 module DefaultMappingRegistry

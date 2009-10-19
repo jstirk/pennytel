@@ -1,5 +1,5 @@
-require 'lib/default'
-require 'lib/defaultMappingRegistry.rb'
+require 'pennytel/default'
+require 'pennytel/defaultMappingRegistry.rb'
 require 'soap/rpc/driver'
 
 class PennyTelAPI < ::SOAP::RPC::Driver
