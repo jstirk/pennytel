@@ -1,9 +1,9 @@
-require 'default.rb'
-require 'defaultMappingRegistry.rb'
+require 'lib/default'
+require 'lib/defaultMappingRegistry.rb'
 require 'soap/rpc/driver'
 
 class PennyTelAPI < ::SOAP::RPC::Driver
-  DefaultEndpointUrl = "http://pennytel.com/pennytelapi-beta/services/PennyTelAPI"
+  DefaultEndpointUrl = "https://www.pennytel.com/pennytelapi/services/PennyTelAPI"
 
   Methods = [
     [ "",

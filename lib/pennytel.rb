@@ -1,12 +1,13 @@
 gem 'soap4r'
 require 'soap/mapping'
-require 'defaultDriver'
+require 'lib/defaultDriver'
 
 class PennyTel
   
   def initialize username, password
     @username, @password = username, password
     @penny_tel_api = PennyTelAPI.new
+    @penny_tel_api.options['protocol.http.ssl_config.options'] = OpenSSL::SSL::OP_NO_SSLv3
   end
 
   def sms number, message
