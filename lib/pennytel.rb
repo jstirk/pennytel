@@ -1,6 +1,6 @@
 $:.unshift File.dirname(__FILE__)
 
-gem 'soap4r'
+require 'soap4r'
 require 'soap/mapping'
 require 'pennytel/defaultDriver'
 
