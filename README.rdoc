@@ -1,6 +1,6 @@
 = pennytel
 
-Description goes here.
+Ruby wrapper for the API provided by PennyTel (http://www.pennytel.com)
 
 == Note on Patches/Pull Requests
  
